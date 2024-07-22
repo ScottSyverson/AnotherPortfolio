@@ -1,23 +1,53 @@
+
+.tippy-top-bar{
+    background-color: black;
+    color: black;
+    padding-bottom: 1px;
+}
 .top-bar{
-    background-color: aqua;
+    background-color: red;
+    color: black;
+    padding-bottom: 1px;
+   
+}
+.title{
+    color: white;
 }
 
 .nav-buttons{
-    align-content: center;
-    
+    align-content: center;    
 }
+
 .nav-buttons ul{
     list-style-type: none;
     display: inline-flex;
     justify-content: center;
-    
-    
 }
 
 .nav-buttons li{
-    margin: 20px;
-
+    margin: 15px
 }
 .nav-buttons button{
     border-radius: 10px ;
+    background-color: white;
+    color: black;
+}
+
+.picture{
+    text-align: center;
+    padding: 5px;
+    background-color: black;    
+}
+.picture img{
+    height: 400px;
+    width: 400px;   
+    border-radius: 50%;
+}
+
+
+@media(max-width: 400px){
+    .picture img{
+        height: 300px;
+        width: 300px;   
+        border-radius: 50%;    }
 }
