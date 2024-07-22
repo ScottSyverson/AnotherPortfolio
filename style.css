@@ -43,11 +43,23 @@
     width: 400px;   
     border-radius: 50%;
 }
+.contact{
+    text-align: center;
+    background-color: red;
+    color: black;
+}
 
+.email h2{
+    color: white;
+}
 
 @media(max-width: 400px){
     .picture img{
         height: 300px;
         width: 300px;   
-        border-radius: 50%;    }
+        border-radius: 50%;    
+    }
+    .email h2{
+        font-size: large;
+    }
 }
