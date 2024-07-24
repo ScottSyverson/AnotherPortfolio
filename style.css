@@ -92,12 +92,14 @@
 }
 
 .project:hover{
-    background-color: red;
+    background-image: url(redblack1.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    a{
+        color: white;
+    }
 }
 
-.project a:hover{
-    color: white;
-}
 .very-bottom-bar{
     background-color: black;
     color: black;
