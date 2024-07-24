@@ -36,7 +36,10 @@
 .picture{
     text-align: center;
     padding: 5px;
-    background-color: black;    
+    background-image: url(redblack1.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;    
+
 }
 .picture img{
     height: 400px;
@@ -79,6 +82,12 @@
     padding: 5px;
     border: 2px solid black;
     
+}
+
+.project a{
+    text-decoration: none;
+    color: black;
+
 }
 
 .very-bottom-bar{
