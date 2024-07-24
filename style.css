@@ -90,6 +90,10 @@
 
 }
 
+.project:hover{
+    background-color: red;
+}
+
 .very-bottom-bar{
     background-color: black;
     color: black;
