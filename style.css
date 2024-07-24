@@ -81,7 +81,8 @@
     /*margin: 2px;*/
     padding: 5px;
     border: 2px solid black;
-    
+    border-radius: 10px;
+
 }
 
 .project a{
@@ -94,6 +95,9 @@
     background-color: red;
 }
 
+.project a:hover{
+    color: white;
+}
 .very-bottom-bar{
     background-color: black;
     color: black;
