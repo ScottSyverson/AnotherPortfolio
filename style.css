@@ -53,6 +53,41 @@
     color: white;
 }
 
+.github-pic a {
+    font-size: 100px;
+    color: white;
+   
+}
+.github-pic a:hover{
+    color: black;
+    transform: scale(5);
+}
+
+.about{
+    color: black;
+}
+
+.projects-header{
+    color: white;
+    background-color: black;
+    padding-bottom: 5px;
+}
+
+
+.project{
+    /*margin: 2px;*/
+    padding: 5px;
+    border: 2px solid black;
+    
+}
+
+.very-bottom-bar{
+    background-color: black;
+    color: black;
+    padding-bottom: 1px;
+
+}
+
 @media(max-width: 400px){
     .picture img{
         height: 300px;
