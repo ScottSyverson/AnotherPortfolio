@@ -1,83 +1,89 @@
-
-.tippy-top-bar{
+.tippy-top-bar {
     background-color: black;
     color: black;
     padding-bottom: 1px;
 }
-.top-bar{
+
+.top-bar {
     background-color: red;
     color: black;
     padding-bottom: 1px;
-   
+
 }
-.title{
+
+.title {
     color: white;
 }
 
-.nav-buttons{
-    align-content: center;    
+.nav-buttons {
+    align-content: center;
 }
 
-.nav-buttons ul{
+.nav-buttons ul {
     list-style-type: none;
     display: inline-flex;
     justify-content: center;
 }
 
-.nav-buttons li{
+.nav-buttons li {
     margin: 15px
 }
-.nav-buttons button{
-    border-radius: 10px ;
+
+.nav-buttons button {
+    border-radius: 10px;
     background-color: white;
     color: black;
 }
 
-.picture{
+.picture {
     text-align: center;
     padding: 5px;
     background-image: url(redblack1.jpg);
-    background-repeat:no-repeat;
-    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
-.picture img{
+
+.picture img {
     height: 400px;
-    width: 400px;   
+    width: 400px;
     border-radius: 50%;
 }
-.contact{
+
+.contact {
     text-align: center;
     background-color: red;
     color: black;
 }
 
-.email h2{
+.email h2 {
     color: white;
 }
 
 .github-pic a {
     font-size: 100px;
     color: white;
-   
+
 }
-.github-pic a:hover{
+
+.github-pic a:hover {
     color: black;
     transform: scale(5);
 }
 
-.about{
+.about {
     color: black;
 }
 
-.projects-header{
+.projects-header {
+    background-color: red;
     color: white;
-    background-color: black;
+
     padding-bottom: 5px;
 }
 
 
-.project{
+.project {
     /*margin: 2px;*/
     padding: 5px;
     border: 2px solid black;
@@ -85,35 +91,38 @@
 
 }
 
-.project a{
+.project a {
     text-decoration: none;
     color: black;
 
 }
 
-.project:hover{
+.project:hover {
     background-image: url(redblack1.jpg);
-    background-repeat:no-repeat;
-    background-attachment: fixed; 
-    a{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    a {
         color: white;
     }
 }
 
-.very-bottom-bar{
+.very-bottom-bar {
     background-color: black;
     color: black;
     padding-bottom: 1px;
+    
 
 }
 
-@media(max-width: 400px){
-    .picture img{
+@media(max-width: 400px) {
+    .picture img {
         height: 300px;
-        width: 300px;   
-        border-radius: 50%;    
+        width: 300px;
+        border-radius: 50%;
     }
-    .email h2{
+
+    .email h2 {
         font-size: large;
     }
 }
